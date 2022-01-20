@@ -17,39 +17,39 @@ cd HTT-utilities
 git clone git@github.com:msessini/RecoilCorrections.git
 cd $CMSSW_BASE/src
 
-git@github.com:msessini/HiggsCPinTauDecays.git
+git clone git@github.com:msessini/HiggsCPinTauDecays.git
 
-git@github.com:msessini/LLRHiggsTauTau.git
+git clone git@github.com:msessini/LLRHiggsTauTau.git
 
 mkdir Muon
 cd Muon
-git@github.com:msessini/MuonAnalysisTools.git
+git clone git@github.com:msessini/MuonAnalysisTools.git
 cd $CMSSW_BASE/src
 
-git@github.com:msessini/RecoEgamma.git
+git clone git@github.com:msessini/RecoEgamma.git
 
-git@github.com:msessini/RecoJets.git
+git clone git@github.com:msessini/RecoJets.git
 
-git@github.com:msessini/RecoMET.git
+git clone git@github.com:msessini/RecoMET.git
 
-git@github.com:msessini/RecoTauTag.git
+git clone git@github.com:msessini/RecoTauTag.git
 
 mkdir TauAnalysisTools
 cd TauAnalysisTools
-git@github.com:msessini/TauTriggerSFs.git
+git clone git@github.com:msessini/TauTriggerSFs.git
 cd $CMSSW_BASE/src
 
 mkdir TauAnalysis
 cd TauAnalysis
-git@github.com:msessini/ClassicSVfit.git
-git@github.com:msessini/SVfitTF.git
+git clone git@github.com:msessini/ClassicSVfit.git
+git clone git@github.com:msessini/SVfitTF.git
 cd $CMSSW_BASE/src
 
 mkdir TauPOG
 cd TauPOG
-git@github.com:msessini/TauIDSFs.git
+git clone git@github.com:msessini/TauIDSFs.git
 cd $CMSSW_BASE/src
 
-git@github.com:msessini/UFHZZAnalysisRun2.git
+git clone git@github.com:msessini/UFHZZAnalysisRun2.git
 
 scramv1 b -j 8
