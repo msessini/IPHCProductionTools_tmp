@@ -1,3 +1,5 @@
+echo 'Setting up CMSSW_10_2_23...'
+
 source /cvmfs/cms.cern.ch/cmsset_default.sh
 source /cvmfs/cms.cern.ch/crab3/crab.sh
 
@@ -12,7 +14,7 @@ cd $CMSSW_BASE/src
 
 mkdir HTT-utilities
 cd HTT-utilities
-git clone git@github.com:msessiniRecoilCorrections.git
+git clone git@github.com:msessini/RecoilCorrections.git
 cd $CMSSW_NASE/src
 
 git@github.com:msessini/HiggsCPinTauDecays.git
