@@ -19,7 +19,7 @@ cd $CMSSW_BASE/src
 
 git clone git@github.com:msessini/HiggsCPinTauDecays.git
 
-git clone git@github.com:msessini/LLRHiggsTauTau.git
+git clone --branch MuTau --single-branch git@github.com:msessini/LLRHiggsTauTau.git
 
 mkdir Muon
 cd Muon
