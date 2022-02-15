@@ -1,6 +1,7 @@
 ### Description
 
-IPHC Ntuples production tools for CMSSW_10_2_23.
+IPHC Ntuples production tools for Higgs to TauTau CP analysis.
+Current CMSSW version is CMSSW_10_2_23.
 
 ### Instructions
 
