@@ -8,6 +8,10 @@ Current CMSSW version is CMSSW_10_2_23.
 
 #### Channel
 
+- For run2 Higgs to MuTauh analysis including systematics :
+
+git clone --branch run2_MuTau --single-branch git@github.com:msessini/IPHCProductionTools.git
+
 - For Higgs to MuTauH analysis :
 
 git clone --branch MuTauProducer --single-branch git@github.com:msessini/IPHCProductionTools.git
@@ -18,8 +22,4 @@ git clone --branch TauTauProducer --single-branch git@github.com:msessini/IPHCPr
 
 #### Setup
 
-Then simply do : 
-
-cd IPHCProductionTools
-
-./SetupCMSSW
+Then simply do ./SetupCMSSW
