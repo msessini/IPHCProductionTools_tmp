@@ -9,29 +9,19 @@ scramv1 project CMSSW CMSSW_10_2_23
 cd CMSSW_10_2_23/src
 eval `scramv1 runtime -sh`
 
-mkdir EGamma
-cd EGamma
-git clone git@github.com:msessini/EGammaAnalysisTools.git
-cd $CMSSW_BASE/src
+git clone git@github.com:msessini/EGammaAnalysisTools.git EGamma/EGammaAnalysisTools
 
-mkdir HTT-utilities
-cd HTT-utilities
-git clone git@github.com:msessini/RecoilCorrections.git
-cd $CMSSW_BASE/src
+git clone git@github.com:msessini/RecoilCorrections.git HTT-utilities/RecoilCorrections
 
 git clone --recurse-submodules git@github.com:msessini/HiggsCPinTauDecays.git
 
 git clone --branch run2_MuTau --single-branch git@github.com:msessini/LLRHiggsTauTau.git
 
-mkdir TauPolSoftware
-cd TauPolSoftware
-git clone git@github.com:msessini/OldGEF SimpleFits
-cd $CMSSW_BASE/src
+git clone git@github.com:msessini/GeneratorInterface.git
 
-mkdir Muon
-cd Muon
-git clone git@github.com:msessini/MuonAnalysisTools.git
-cd $CMSSW_BASE/src
+git clone git@github.com:msessini/OldGEF TauPolSoftware/SimpleFits
+
+git clone git@github.com:msessini/MuonAnalysisTools.git Muon/MuonAnalysisTools
 
 git clone git@github.com:msessini/RecoEgamma.git
 
@@ -41,21 +31,12 @@ git clone git@github.com:msessini/RecoMET.git
 
 git clone git@github.com:msessini/RecoTauTag.git
 
-mkdir TauAnalysisTools
-cd TauAnalysisTools
-git clone git@github.com:msessini/TauTriggerSFs.git
-cd $CMSSW_BASE/src
+git clone git@github.com:msessini/TauTriggerSFs.git TauAnalysisTools/TauTriggerSFs
 
-mkdir TauAnalysis
-cd TauAnalysis
-git clone git@github.com:msessini/ClassicSVfit.git
-git clone git@github.com:msessini/SVfitTF.git
-cd $CMSSW_BASE/src
+git clone git@github.com:msessini/ClassicSVfit.git TauAnalysis/ClassicSVfit
+git clone git@github.com:msessini/SVfitTF.git TauAnalysis/SVfitTF
 
-mkdir TauPOG
-cd TauPOG
-git clone git@github.com:msessini/TauIDSFs.git
-cd $CMSSW_BASE/src
+git clone git@github.com:msessini/TauIDSFs.git TauPOG/TauIDSFs
 
 git clone git@github.com:msessini/UFHZZAnalysisRun2.git
 
